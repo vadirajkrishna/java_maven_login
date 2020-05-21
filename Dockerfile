@@ -1,4 +1,4 @@
-FROM vadirajdocker/login_app
+FROM tomcat:jre8
 MAINTAINER Vadiraj Krishna
 
 
