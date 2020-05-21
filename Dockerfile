@@ -1,5 +1,4 @@
-FROM tomcat:jre8
+FROM docker pull vadirajdocker/login_app:latest
 MAINTAINER Vadiraj Krishna
-CMD echo pwd
-COPY webapp.war /usr/local/tomcat/webapps/
+
 
